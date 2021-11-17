@@ -1,0 +1,31 @@
+@charset "UFT-8";
+
+body{
+    background-color: #db12413d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: #360410;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #750923
+}
+h2{
+    color: #B50E35;
+}
+
+h2.basico{
+    color: green;
+    font-weight: bold;
+}
+
+h2.intermediario{
+    color: yellow;
+}
+
+h2.avancado{
+    color: red;
+}

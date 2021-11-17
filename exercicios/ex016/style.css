@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+  font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+
+  font-size: 1em;
+
+
+}
+
+h1 {
+  /*SHORTHAND FONT
+  font: - font-style -> font-weight - > font-size - font-family*/
+  font: italic bolder 3em 'Arial';
+}
+
+h2 {
+  font: bold 2em 'Times new romam';
+}
