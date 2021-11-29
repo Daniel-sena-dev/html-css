@@ -17,7 +17,7 @@ html{box-sizing: border-box;}
     margin: 0;
     
 }
-
+/*CONFIGURAÇÃO DA SEÇÃO */
 header{
     background-color: black;
     color: white;
@@ -37,7 +37,50 @@ header a{
     color: white;
     font-weight: bolder;
 }
-
+/*CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
 main{
     font-family: var(--fonteGeral);
+    text-align: left;
+}
+
+main section{
+    height: 600px;
+    padding-top: 10px;
+}
+
+main div{
+    width: 500px;
+    height: 500px;
+    padding: 20px 128px 20px 5px;
+    margin: 40px 40px;
+    font-size: 2em;
+}
+
+main .secao2{
+    background-image: url(imagens/background001.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+main .div2{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    
+}
+
+
+/*RODAPÉ*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
