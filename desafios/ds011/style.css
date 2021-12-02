@@ -11,76 +11,72 @@
 
 html{box-sizing: border-box;}
 
-*, *::before, *::after{
-    box-sizing: inherit;
+*{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;  
 }
-/*CONFIGURAÇÃO DA SEÇÃO */
+
+html, body{
+    min-width: 100vh; /*Tamanho minimo*/
+    background-color: darkgray;
+}
+
 header{
     background-color: black;
     color: white;
-    font: 48px var(--fonteDestaque);
-    height: 250px;
     text-align: center;
+}
+
+header > h1{
     padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonteDestaque);
 }
 
-header p{
-    font-family: var(--fonteSite);
-    font-size: 18px;
+header > p{
+    padding-bottom: 50px;
 }
 
-header a{
-    text-decoration: none;
+a {
     color: white;
+    text-decoration: none;
     font-weight: bolder;
 }
-/*CONFIGURAÇÃO DO CONTEUDO PRINCIPAL*/
-main{
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
     font-family: var(--fonteGeral);
-    text-align: left;
 }
 
-main section{
-    height: 600px;
-    padding-top: 10px;
+section.normal{
+    background-color: white;
+    color: black;
 }
 
-main div{
-    width: 500px;
-    height: 500px;
-    padding: 20px 128px 20px 5px;
-    margin: 40px 40px;
-    font-size: 2em;
-}
-
-main .secao2{
-    background-image: url(imagens/background001.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    
-}
-
-main .div2{
-    background-color: rgba(0, 0, 0, 0.445);
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.801);
     color: white;
-    
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 400px;
 }
 
 
-/*RODAPÉ*/
+
+
+
 footer{
     background-color: black;
-    color: white;
     text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
-}
-
-footer a{
-    text-decoration: none;
     color: white;
-    font-weight: bolder;
+    padding: 10px;
 }
