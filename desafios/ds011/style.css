@@ -6,7 +6,7 @@
 :root{
     --fonteDestaque:'Passion One', monospace;
     --fonteGeral: 'Sriracha', sans-serif;
-    --fonteSite: Arial, Helvetica, sans-serif; 
+    --fonteSite: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html{box-sizing: border-box;}
@@ -19,6 +19,7 @@ html{box-sizing: border-box;}
 html, body{
     min-width: 100vh; /*Tamanho minimo*/
     background-color: darkgray;
+    font-family: var(--fonteSite);
 }
 
 header{
@@ -31,6 +32,7 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonteDestaque);
+    font-size: 10vw;
 }
 
 header > p{
@@ -53,6 +55,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonteGeral);
+    font-size: 3vw;
 }
 
 section.normal{
@@ -66,13 +69,11 @@ section.imagem{
 }
 
 section.imagem > p{
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
+    
 }
-
-
-
-
 
 footer{
     background-color: black;
